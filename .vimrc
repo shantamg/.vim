@@ -239,3 +239,5 @@ autocmd WinLeave * setlocal nocursorline
 set listchars=tab:>-,trail:·,eol:$
 nmap <silent> <leader>s :set nolist!<CR>
 
+" fix the delay when hitting <esc> and then O
+imap <esc> <c-c>
