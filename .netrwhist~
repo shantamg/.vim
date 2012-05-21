@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/jason/Sites/rovingnetworks/app/protected/files'
+let g:netrw_dirhist_2='/Users/jason/Sites/rovingnetworks/app/protected'
+let g:netrw_dirhist_3='/Users/jason/Sites/rovingnetworks/app/views/product_registrations'
