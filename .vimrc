@@ -1,10 +1,5 @@
 autocmd BufNewFile,BufRead Gemfile set filetype=ruby
 colorscheme jellybeans
-
-"make tabs and trailing spaces visible when requested:
-set listchars=tab:>-,trail:·,eol:$
-nmap <silent> <leader>s :set nolist!<CR>
-
 set pastetoggle=<F2>
 set visualbell
 set nocompatible
@@ -238,3 +233,9 @@ nmap  <Space> zz
 hi CursorLine   cterm=NONE ctermbg=235 ctermfg=NONE guibg=none guifg=none
 autocmd WinEnter * setlocal cursorline
 autocmd WinLeave * setlocal nocursorline
+
+
+"make tabs and trailing spaces visible when requested:
+set listchars=tab:>-,trail:·,eol:$
+nmap <silent> <leader>s :set nolist!<CR>
+
