@@ -238,6 +238,3 @@ autocmd WinLeave * setlocal nocursorline
 "make tabs and trailing spaces visible when requested:
 set listchars=tab:>-,trail:·,eol:$
 nmap <silent> <leader>s :set nolist!<CR>
-
-" fix the delay when hitting <esc> and then O
-imap <esc> <c-c>
