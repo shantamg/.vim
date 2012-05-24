@@ -238,3 +238,27 @@ autocmd WinLeave * setlocal nocursorline
 "make tabs and trailing spaces visible when requested:
 set listchars=tab:>-,trail:·,eol:$
 nmap <silent> <leader>s :set nolist!<CR>
+
+" delete all contents and save (for log files)
+map <leader>cl ggVGd:w<CR>
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" jump to next occurence of word under cursor in all files
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" this one is cleaner 
+"   (because it doesn't flash the terminal
+"    and when you do fn and fp it goes to the word and not
+"    just the begining of the line)
+" but it's way slower
+map ff :vimgrep <cword> **/*<CR>
+
+" this one is fast
+"map ff :grep -r '\b<cword>\b' *<CR><CR>
+
+" find next
+map fn :cnf<CR>
+" find previous
+map fp :cpf<CR>
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
