@@ -240,14 +240,14 @@ set listchars=tab:>-,trail:·,eol:$
 nmap <silent> <leader>s :set nolist!<CR>
 
 " delete all contents and save (for log files)
-map <leader>cl ggVGd:w<CR>
+map <leader>cl :e!<CR>ggVGd:w<CR>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " jump to next occurence of word under cursor in all files
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " this one is cleaner 
-"   (because it doesn't flash the terminal
+"   (because it doesn't gunk up the terminal
 "    and when you do fn and fp it goes to the word and not
 "    just the begining of the line)
 " but it's way slower
@@ -261,4 +261,7 @@ map fn :cnf<CR>
 " find previous
 map fp :cpf<CR>
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" toggle display of line numbers
+nmap <C-N><C-N> :set invnumber<CR>
 
