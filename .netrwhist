@@ -1,10 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/Users/jason/.vim'
-let g:netrw_dirhist_2='/Users/jason/.vim/.git'
-let g:netrw_dirhist_3='/Users/jason/.vim'
-let g:netrw_dirhist_4='/Users/jason/Sites/rails/sample_app'
-let g:netrw_dirhist_5='/Users/jason/Sites/rails/sample_app/spec'
-let g:netrw_dirhist_6='/Users/jason/Sites/rails/sample_app/spec/models'
-let g:netrw_dirhist_7='/Users/jason/Sites/rails/sample_app/app/models'
-let g:netrw_dirhist_8='/Users/jason/Sites/rails/sample_app/app'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/jason/.vim/bundle/vim-ruby/doc'
+let g:netrw_dirhist_2='/Users/jason/.vim/bundle/vim-ruby/compiler'
+let g:netrw_dirhist_3='/Users/jason/.vim/bundle/vim-ruby/bin'
+let g:netrw_dirhist_4='/Users/jason/.vim/bundle/vim-ruby/autoload'
