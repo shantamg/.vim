@@ -1,5 +1,6 @@
 autocmd BufNewFile,BufRead Gemfile set filetype=ruby
 colorscheme jellybeans
+let g:ctrlp_working_path_mode = 0
 set pastetoggle=<F2>
 set visualbell
 set nocompatible

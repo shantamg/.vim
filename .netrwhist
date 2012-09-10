@@ -1,4 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/Users/jason/Sites/registration/app/models'
 let g:netrw_dirhist_2='/Users/jason/Sites/registration/db/migrate'
+let g:netrw_dirhist_3='/usr/bin'
+let g:netrw_dirhist_4='/Users/jason/Sites/resume/app/views'
+let g:netrw_dirhist_5='/Users/jason/Sites/resume/app/views/static_pages'
+let g:netrw_dirhist_6='/Users/jason/Sites/sinatra/resume/views'
