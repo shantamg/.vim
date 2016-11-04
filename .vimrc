@@ -1,6 +1,7 @@
 autocmd BufNewFile,BufRead Gemfile set filetype=ruby
 colorscheme jellybeans
 let g:ctrlp_working_path_mode = 0
+let g:ctrlp_custom_ignore = "platforms"
 set pastetoggle=<F2>
 set visualbell
 set nocompatible
@@ -274,3 +275,8 @@ function! BlankSpace()
     :silent !echo;echo;echo;echo;echo;echo;echo;echo;echo;echo
     :silent !echo;echo;echo;echo;echo;echo;echo;echo;echo;echo
 endfunction
+call pathogen#infect()
+syntax enable
+filetype plugin indent on
+:inoremap <S-Tab> <C-V><Tab>
+autocmd FileType text setlocal noet ci pi sts=0 sw=4 ts=4
