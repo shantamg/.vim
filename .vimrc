@@ -1,5 +1,6 @@
 autocmd BufNewFile,BufRead Gemfile set filetype=ruby
 colorscheme jellybeans
+set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:ctrlp_working_path_mode = 0
 let g:ctrlp_custom_ignore = "platforms"
 set pastetoggle=<F2>
